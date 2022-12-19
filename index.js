@@ -19,7 +19,7 @@ const areYouANepoBby = name =>{
     if(!!test.length){
       return console.log('Yeah, they\'re a nepo baby!')
     }else {
-      return console.log('I didm\'t find anything...')
+      return console.log('I didn\'t find anything...')
    }
   })
   .catch(()=> console.log('I didn\'t find anything...'))
