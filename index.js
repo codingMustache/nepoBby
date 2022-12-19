@@ -22,6 +22,7 @@ const areYouANepoBby = name =>{
       return console.log('I didm\'t find anything...')
    }
   })
+  .catch(()=> console.log('I didn\'t find anything'))
 }
 const input = prompt('Enter a potential nepo baby:')
 areYouANepoBby(input)
